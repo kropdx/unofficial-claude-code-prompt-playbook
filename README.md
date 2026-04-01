@@ -2,6 +2,14 @@
 
 > An unofficial, local-source-derived playbook for building production-grade system prompts, tool prompts, memory prompts, verifier prompts, and prompt architectures for modern LLM applications.
 
+## Podcast Companion
+
+This repo also includes a podcast companion episode:
+
+- [`How_Anthropic_engineers_Claude_system_prompts.m4a`](./How_Anthropic_engineers_Claude_system_prompts.m4a)
+
+The audio is meant to accompany the playbook and give a higher-level walkthrough of why these prompt-architecture patterns matter.
+
 ## Disclaimer
 
 This document is based primarily on static analysis of an unofficial extraction of Anthropic's Claude Code prompt architecture. It is **not** an official Anthropic document and should not be read as a claim about hidden or proprietary policy. The point of this playbook is practical:
