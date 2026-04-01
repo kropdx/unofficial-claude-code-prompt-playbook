@@ -10,6 +10,28 @@ This repo also includes a podcast companion episode:
 
 The audio is meant to accompany the playbook and give a higher-level walkthrough of why these prompt-architecture patterns matter.
 
+## What This Playbook Gives You
+
+We use the learnings from the analyzed prompt architecture to build a practical, production-grade manual for creating world-class prompts and agent systems.
+
+This playbook is designed to help you build:
+
+1. A gold-standard system prompt architecture for modern LLM applications
+2. A modular way to break prompts into reusable policy blocks instead of one giant blob
+3. A clean separation between static prompt policy and dynamic runtime context
+4. A safe model for injecting user data only when it has causal value
+5. A clear instruction-precedence system for base rules, org rules, project rules, user preferences, and request-time overrides
+6. A strong trust-boundary model for policy, trusted runtime context, retrieved evidence, and user input
+7. Better tool prompts, tool schemas, and tool-use policies
+8. Verifier-agent patterns for adversarial, evidence-based validation
+9. Durable memory patterns that stay useful instead of becoming noisy
+10. Prompt-caching-friendly layouts that preserve a reusable prefix
+11. Example-driven prompt design for formatting, edge cases, and escalation behavior
+12. Anti-rationalization rules that explicitly block the model's most common shortcuts
+13. Real-world templates for coding agents, RAG analysts, support agents, and orchestrators
+
+Think of the rest of the document as a chapter-by-chapter build manual for those outcomes.
+
 ## Disclaimer
 
 This document is based primarily on static analysis of an unofficial extraction of Anthropic's Claude Code prompt architecture. It is **not** an official Anthropic document and should not be read as a claim about hidden or proprietary policy. The point of this playbook is practical:
